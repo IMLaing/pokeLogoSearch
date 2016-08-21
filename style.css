@@ -82,6 +82,7 @@ div#displayScreen{
 }
 .water{
 	background:blue;
+	border-radius: 10px;
 }
 .electric{
 	background:yellow;
