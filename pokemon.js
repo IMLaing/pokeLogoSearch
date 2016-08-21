@@ -30,9 +30,9 @@ $(function(){
 				var checkType2 = results[i].type2;
 				if (checkType1 == type1 && type2 == 'noSecond'){
 					console.log(i + ' is matched');
-					$('#displaySelection').append('<a href="http://bulbapedia.bulbagarden.net/wiki/'+pokeName+'_(Pok%C3%A9mon)" ><div class="pokeImg '+ type1 +'"> <h2>' + pokeName.toUpperCase() + '</h2> <img src="pokemon/img/' + (i+1) + '.png" /> </div> </a>' );
+					$('#displaySelection').append('<div class="pokeImg '+ type1 +'"> <h2>' + pokeName.toUpperCase() + '</h2><a href="http://bulbapedia.bulbagarden.net/wiki/'+pokeName+'_(Pok%C3%A9mon)" > <img src="pokemon/img/' + (i+1) + '.png" /> </div> </a>' );
 				} else if (checkType1 == type1 && checkType2 == type2){
-					$('#displaySelection').append('<div class="pokeImg '+ type1 +' '+ type2 +'2 "> <h2>' + pokeName.toUpperCase() + '</h2> <img src="pokemon/img/' + (i+1) + '.png" /> </div>');
+					$('#displaySelection').append('<div class="pokeImg '+ type1 +' '+ type2 +'2 "> <h2>' + pokeName.toUpperCase() + '</h2><a href="http://bulbapedia.bulbagarden.net/wiki/'+pokeName+'_(Pok%C3%A9mon)" > <img src="pokemon/img/' + (i+1) + '.png" /> </div>');
 					console.log(i + ' is matched with both');
 				} else{
 					noPokeCounter++;

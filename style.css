@@ -1,25 +1,35 @@
 * {
 	margin: 0;
 	padding: 0;
+	text-decoration: none;
+}
+
+h1 {
+	margin: 45px;
+	font-size: 4em;
+}
+ p {
+	margin: 45px;
+	font-size:2em;
+}
+select, input{
+	padding: 10px;
+	border-radius: 10px;
 }
 section{
 	margin: 25px auto;
 	width: 60em;
 	text-align: center;
 }
-
 div#displayScreen{
 	float: right;
 	font-size:2em;
 }
-
 .pokeImg {
 	display: inline-block;
 	margin: 10px;
 	padding: 15px;
 }
-
-
 .normal {
 	border: 3px solid black;
 	border-radius: 10px;
@@ -66,7 +76,6 @@ div#displayScreen{
 .dragon2{
 	border: 3px solid gold;
 }
-
 .fire{
 	background:red;
 	border-radius: 10px;
