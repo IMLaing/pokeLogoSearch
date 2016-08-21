@@ -1,23 +1,3 @@
-/*
-getJson Model:
-
-function getRequest(searchTerm){
-  var parameters = {
-    s: searchTerm,
-    r: 'json'
-  };
-  url = 'http://www.omdbapi.com';
-
-  $.getJSON(url, parameters, function(data){
-    showResults(data.Search);
-  });
-}
-
-
-
-*/
-
-
 $(function(){
 	var findPokemon = function(type1, type2){
 		$.getJSON("pokeData.json").done(function(results){
