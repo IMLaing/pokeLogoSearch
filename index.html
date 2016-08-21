@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pokemon API</title>
+  <meta name="description" content="">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> 
+  <script src="pokemon.js"></script> 
+</head>
+<body>
+	<section>
+	 	<h1> Pokemon Type Finder </h1>
+	 	<form action="">
+			<select name="pokemonTypeList" id="pokeType">
+		        <option value="normal">Normal</option>
+		        <option value="fire">Fire</option>   
+		        <option value="water">Water</option>
+		        <option value="electric">Electric</option>
+		        <option value="grass">Grass</option>   
+		        <option value="ice">Ice</option>  
+		        <option value="fighting">Fighting</option>
+		        <option value="poison">Poison</option>   
+		        <option value="ground">Ground</option> 
+		        <option value="psyhic">Psyhic</option>   
+		        <option value="bug">Bug</option>  
+		        <option value="rock">Rock</option>
+		        <option value="ghost">Ghost</option>   
+		        <option value="dragon">Dragon</option>
+		    </select>
+		    <select name="pokemonTypeListSecondary" id="pokeTypeSecondary">
+				<option value="noSecond">No Secondary Type</option>  
+		        <option value="normal">Normal</option>
+		        <option value="fire">Fire</option>   
+		        <option value="water">Water</option>
+		        <option value="electric">Electric</option>
+		        <option value="grass">Grass</option>   
+		        <option value="ice">Ice</option>  
+		        <option value="fighting">Fighting</option>
+		        <option value="poison">Poison</option>   
+		        <option value="ground">Ground</option>  
+		        <option value="flying">Flying</option>
+		        <option value="psyhic">Psyhic</option>   
+		        <option value="bug">Bug</option>  
+		        <option value="rock">Rock</option>
+		        <option value="ghost">Ghost</option>   
+		        <option value="dragon">Dragon</option>
+		    </select>      
+		    <input type="submit" value="Search" id="searchTypes">
+		</form>
+		<div id="displaySelection"></div>
+<!--<button id='displayAll'>Display All Types</button><div id="displayScreen"></div>-->
+	</section>
+</body>
+</html>
